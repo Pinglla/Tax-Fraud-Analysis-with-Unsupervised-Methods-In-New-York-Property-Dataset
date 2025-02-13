@@ -20,11 +20,11 @@ The goal of this project is to detect anomalies in property tax records by using
 
 3. Anomaly Detection Algorithms
    - Two unsupervised learning methods were applied to detect tax fraud:
-     a. Z-Score Outlier Detection: Measures the distance of records from the mean using Minkowski distance.
-     b. Autoencoder-Based Anomaly Detection: A deep learning model trained to reconstruct data, where high reconstruction errors indicate potential fraud.
+     - **Z-Score Outlier Detection: Measures the distance of records from the mean using Minkowski distance.
+     - **Autoencoder-Based Anomaly Detection: A deep learning model trained to reconstruct data, where high reconstruction errors indicate potential fraud.
    - Final fraud scores were computed by averaging the ranking of both methods.
 
-4. Validation & Case Study
+6. Validation & Case Study
    - High-scoring records were manually reviewed using external sources such as Google Maps.
    - Three key cases were identified with substantial inconsistencies in property valuation and classification, warranting further investigation by tax authorities.
 
